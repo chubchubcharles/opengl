@@ -2,4 +2,10 @@ To obtain an .o file:
 g++ -c playground.cpp
 
 To compile into an .exe file:
-g++ playground.o -o playground -lGL -lGLU -lglfw3 -lX11 -lXxf86vm -lXrandr -lpthread -lXi
+g++ playground.o -o playground -lGL -lGLU -lglfw3 -lGLEW -lglut... -lX11 -lXxf86vm -lXrandr -lpthread -lXi
+
+GL = OpenGL
+GLU = OpenGL Utilities Library
+Glfw3 = window api
+Glew = Loading library
+Glut = window api (works for freeglut I believe)
