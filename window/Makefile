@@ -1,15 +1,15 @@
-CC=gcc
+CC=g++
 CFLAGS=-c -Wall
 LDFLAGS=-lGL -lGLU -lGLEW -lglut -lm
 
-OBJECTS=window.o
-SOURCE=window.cpp
+OBJECTS=window_glut.o
+SOURCE=window_glut.cpp
 
-window: $(OBJECTS)
-	$(CC) $(OBJECTS) -o window $(LDFLAGS)
+window_glut: $(OBJECTS)
+	$(CC) $(OBJECTS) -o window_glut $(LDFLAGS)
 
-window.o: $(SOURCE)
+window_glut.o: $(SOURCE)
 	$(CC) $(CFLAGS) $(SOURCE)
 
 clean:
-	rm -f *.o window
+	rm -f *.o window_glut
