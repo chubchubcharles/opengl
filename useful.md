@@ -18,6 +18,7 @@ Glut = window api (works for freeglut I believe)
 To find out GLSL version:
 -----------------------------
 glxinfo | grep -i opengl 
+
 _Note: GLSL Version 130 works with OpenGL 3.0. Check Wikipedia if different versions for compatibility_
 
 

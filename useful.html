@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title></title>
+  <link rel="stylesheet" href="file:////opt/extras.ubuntu.com/uberwriter/share/uberwriter/media/uberwriter.css" type="text/css" />
+</head>
+<body>
+<h1 id="useful-commands">Useful Commands</h1>
+<h2 id="to-obtain-an-.o-file">To obtain an .o file:</h2>
+<p>g++ -c playground.cpp</p>
+<h2 id="to-compile-into-an-.exe-file">To compile into an .exe file:</h2>
+<p>g++ playground.o -o playground -lGL -lGLU -lglfw3 -lGLEW -lglut… -lX11 -lXxf86vm -lXrandr -lpthread -lXi</p>
+<p>GL = OpenGL GLU = OpenGL Utilities Library Glfw3 = window api Glew = Loading library Glut = window api (works for freeglut I believe)</p>
+<h2 id="to-find-out-glsl-version">To find out GLSL version:</h2>
+<p>glxinfo | grep -i opengl</p>
+<p><em>Note: GLSL Version 130 works with OpenGL 3.0. Check Wikipedia if different versions for compatibility</em></p>
+<h1 id="useful-qa-resources">Useful Q&amp;A Resources</h1>
+<h2 id="deletedetach-programsshaders">Delete/Detach programs/shaders:</h2>
+<p>gamedev.stackexchange.com/questions/47910/after-a-successful-glinkprogram-should-i-delete-detach-my-shaders</p>
+</body>
+</html>
