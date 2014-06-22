@@ -9,3 +9,6 @@ GLU = OpenGL Utilities Library
 Glfw3 = window api
 Glew = Loading library
 Glut = window api (works for freeglut I believe)
+
+To find out GLSL version:
+glxinfo | grep -i opengl 
